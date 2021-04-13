@@ -1,0 +1,74 @@
+body {
+    background-color:black;
+     font-family: Arial;
+    color:white
+    
+
+}
+h1{
+    color:grey;
+    font-family: Andale Mono, monospace;
+    text-align: center;
+    font-weight: bold;
+    font-weight: bolder;
+    font-size: 2.8em;
+    animation: mymove 3s infinite;
+
+}
+@keyframes mymove {
+  from {color: red;}
+  to {color:firebrick;}
+    to {color:blueviolet;}
+}
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 1000px;
+    height: auto;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+    font-weight: bold;
+    
+    
+}
+.middlediv{
+      color: black;
+    text-align: center;
+    padding: 55px;
+    
+    
+}
+
+.footer{
+
+      width: 50%;
+    padding: 20px 25px 25px 20px;
+    text-align: left;
+    color:darkcyan;
+    
+}
+p{
+    font-size: 1.2em;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color:yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+    border-radius: 15px;
+}
+#years{
+    font-size: 19px;
+     border-radius: 8px;
+    
+}
+
+#principal{
+    font-size: 16px;
+    border-radius: 8px;
+}
